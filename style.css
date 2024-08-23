@@ -1,0 +1,62 @@
+body {
+  background: rgb(209, 209, 209);
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+  border-bottom: solid 1px rgb(0, 246, 255);
+  padding: 20px;
+  font-size: 30px;
+  color: rgb(0, 246, 255);
+  background: black;
+}
+
+section {
+  background: rgb(0, 12, 58);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.ptext {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+  color: rgb(0, 246, 255);
+  padding-right: 10px;
+}
+
+.ovideo {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.categoria {
+  padding-right: 100px;
+  padding-left: 100px;
+  background: black;
+}
+
+.ovideo img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.ovideo img:hover {
+  opacity: 2;
+  border: 5px solid red;
+}
